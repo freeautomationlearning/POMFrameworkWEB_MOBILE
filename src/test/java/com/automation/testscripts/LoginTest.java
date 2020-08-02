@@ -21,11 +21,11 @@ import com.automation.utility.GlobalParameters;
  */
 public class LoginTest {
 
-	HomePage homePage ;
-	LoginPage loginPage;
-	DashboardPage dashboardPage;	
-	AccountPage accountPage;
-	BaseClass baseClass;
+	private HomePage homePage ;
+	private LoginPage loginPage;
+	private DashboardPage dashboardPage;	
+	private AccountPage accountPage;
+	private BaseClass baseClass;
 	
 	@BeforeClass
 	public void initalizeObject()
@@ -39,7 +39,7 @@ public class LoginTest {
 	{
 		// Check scripts run on web or mobile from BaseClass
 		
-		if(GlobalParameters.runType.equalsIgnoreCase("web")) // It condition helps to create a single test script to run both environment
+		if(GlobalParameters.runType.equalsIgnoreCase("web")) // This condition helps to create a single test script to run both environment
 		{
 			homePage = new HomePage(baseClass.getDriver());
 			loginPage = homePage.clickOnSignIn();
