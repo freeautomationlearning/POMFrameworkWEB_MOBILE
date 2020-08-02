@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10627" started-at="2020-08-02T08:37:02Z" finished-at="2020-08-02T08:37:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10627" started-at="2020-08-02T08:37:02Z" finished-at="2020-08-02T08:37:13Z">
+      <class name="com.automation.testscripts.ValidateLinks">
+        <test-method status="PASS" signature="initalizeObject()[pri:0, instance:com.automation.testscripts.ValidateLinks@6a41eaa2]" name="initalizeObject" is-config="true" duration-ms="10244" started-at="2020-08-02T14:07:02Z" finished-at="2020-08-02T14:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalizeObject -->
+        <test-method status="PASS" signature="validateHomePageLink()[pri:0, instance:com.automation.testscripts.ValidateLinks@6a41eaa2]" name="validateHomePageLink" duration-ms="350" started-at="2020-08-02T14:07:13Z" finished-at="2020-08-02T14:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageLink -->
+      </class> <!-- com.automation.testscripts.ValidateLinks -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

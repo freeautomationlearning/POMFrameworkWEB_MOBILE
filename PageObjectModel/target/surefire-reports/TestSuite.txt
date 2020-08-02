@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 23.265 sec <<< FAILURE! - in TestSuite
+login(com.automation.testscripts.LoginTest)  Time elapsed: 1.406 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Can't locate an element by this strategy: By.id: usernameOrEmail
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.0', revision: 'b7b081a4f1289f17e8ecd38bc67e137c2a12e34a', time: '2015-10-07 09:50:14'
+System info: host: 'DESKTOP-02QTJU3', ip: '192.168.14.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_66'
+Driver info: driver.version: unknown
+	at com.automation.testscripts.LoginTest.login(LoginTest.java:32)
+
